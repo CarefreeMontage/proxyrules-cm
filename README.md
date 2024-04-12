@@ -1,5 +1,8 @@
 # clashrules-cm
-个人自定义分流规则
+个人自定义分流规则<br />
+> [!TIP]
+> 根目录下，configTemplate.yaml为自己自用的配置文件，提供参考，请根据自己的情况修改
+
 
 ## 🐱Github Raw
 **DIRECT - 直连**<br />
