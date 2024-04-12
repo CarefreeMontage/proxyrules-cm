@@ -8,10 +8,10 @@ Microsoft：https://raw.githubusercontent.com/CarefreeMontage/clashrules-cm/main
 Apple：https://raw.githubusercontent.com/CarefreeMontage/clashrules-cm/main/DIRECT/Apple.yam
 
 **PROXY - 代理**<br />
-GFW-被墙：https://raw.githubusercontent.com/CarefreeMontage/clashrules-cm/main/DIRECT/GFW.yaml<br />
-Google：https://raw.githubusercontent.com/CarefreeMontage/clashrules-cm/main/DIRECT/Google.yaml<br />
-Bing：https://raw.githubusercontent.com/CarefreeMontage/clashrules-cm/main/DIRECT/Bing.yaml<br />
-OpenAI：https://raw.githubusercontent.com/CarefreeMontage/clashrules-cm/main/DIRECT/OpenAI.yaml
+GFW-被墙：https://raw.githubusercontent.com/CarefreeMontage/clashrules-cm/main/PROXY/GFW.yaml<br />
+Google：https://raw.githubusercontent.com/CarefreeMontage/clashrules-cm/main/PROXY/Google.yaml<br />
+Bing：https://raw.githubusercontent.com/CarefreeMontage/clashrules-cm/main/PROXY/Bing.yaml<br />
+OpenAI：https://raw.githubusercontent.com/CarefreeMontage/clashrules-cm/main/PROXY/OpenAI.yaml
 
 **REJECT - 屏蔽广告**<br />
 广告：https://raw.githubusercontent.com/CarefreeMontage/clashrules-cm/main/REJECT/ADBlock.yaml
@@ -23,10 +23,10 @@ Microsoft：https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/DIREC
 Apple：https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/DIRECT/Apple.yaml
 
 **PROXY - 代理**<br />
-GFW-被墙：https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/DIRECT/GFW.yaml<br />
-Google：https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/DIRECT/Google.yaml<br />
-Bing：https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/DIRECT/Bing.yaml<br />
-OpenAI：https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/DIRECT/OpenAI.yaml
+GFW-被墙：https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/PROXY/GFW.yaml<br />
+Google：https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/PROXY/Google.yaml<br />
+Bing：https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/PROXY/Bing.yaml<br />
+OpenAI：https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/PROXY/OpenAI.yaml
 
 **REJECT - 屏蔽广告**<br />
 广告：https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/REJECT/ADBlock.yaml
