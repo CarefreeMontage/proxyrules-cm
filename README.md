@@ -1,4 +1,4 @@
-<div align=center><img  src="/source/diversion.png"/></div>
+<div align=center><img width="100" src="/source/diversion.png"/></div>
 
 <h1 align=center> Proxy Rules - Custom </h1>
 
