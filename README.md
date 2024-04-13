@@ -4,7 +4,7 @@
 
 个人自定义分流规则<br />
 ## 可用
-- [x] Clash
+- [x] Clash(Verge/Nyanpasu)
 - [ ] Shadowrocket
 - [ ] Sing-Box
 
