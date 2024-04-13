@@ -7,9 +7,9 @@
 
 # 订阅链接 
 config:
-# Clash不支持某些加密的订阅链接提取节点(例如CFW v.0.20.39)
+# Clash不支持某些订阅链接提取节点(例如CFW v.0.20.39)
 # 请用Clash Verge/Clash Nyanpasu等新内核的客户端
-# 如果一定要用Clash，请自行转换订阅为可用的链接(转换成什么样的链接我也不知道)  
+# 如果一定要用Clash，请自行转换订阅为支持proxy-providers的链接
   subscription-url: &url "https://yourURL....."
 
 mixed-port: 7890
@@ -104,12 +104,12 @@ proxy-providers:
 proxy-groups:
   # 根据自己的订阅内容修改
   - { name: '🚀 代理节点', type: select, use: ['Node-Info', 'Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
-  - { name: '🇬 Google', type: select, use: ['Node-US'] }
-  - { name: '🔍 Bing', type: select, proxies: ['🚀 代理节点'], use: ['Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
+  - { name: '🛸 Google', type: select, use: ['Node-US'] }
+  - { name: '🔍 Bing', type: select, proxies: ['🚀 代理节点', '🇨🇳 国内直连'], use: ['Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
   - { name: '🤖 OpenAI', type: select, use: ['Node-SG', 'Node-US'] }
   - { name: '🇨🇳 国内直连', type: select, proxies: ['DIRECT'] }
-  - { name: '🍎 Apple', type: select, proxies: ['🇨🇳 国内直连'], use: ['Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
-  - { name: '🪟 Microsoft', type: select, proxies: ['🇨🇳 国内直连'], use: ['Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
+  - { name: '🍎 Apple', type: select, proxies: ['🇨🇳 国内直连', '🚀 代理节点'], use: ['Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
+  - { name: '🪟 Microsoft', type: select, proxies: ['🇨🇳 国内直连','🚀 代理节点'], use: ['Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
   - { name: '❌️ 广告拦截', type: select, proxies: ['REJECT'] }
 
 # 规则集
@@ -118,21 +118,21 @@ rule-providers:
     google:
       type: http
       behavior: classical
-      url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/PROXY/Google.yaml"
+      url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/Clash/PROXY/Google.yaml"
       path: ./myConfig/ruleset/proxy/google.yaml
       interval: 86400
   
     bing:
       type: http
       behavior: classical
-      url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/PROXY/Bing.yaml"
+      url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/Clash/PROXY/Bing.yaml"
       path: ./myConfig/ruleset/proxy/bing.yaml
       interval: 86400
 
     openai:
       type: http
       behavior: classical
-      url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/PROXY/OpenAI.yaml"
+      url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/Clash/PROXY/OpenAI.yaml"
       path: ./myConfig/ruleset/proxy/openai.yaml
       interval: 86400
 
@@ -140,21 +140,21 @@ rule-providers:
     china:
       type: http
       behavior: classical
-      url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/DIRECT/China.yaml"
+      url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/Clash/DIRECT/China.yaml"
       path: ./myConfig/ruleset/direct/china.yaml
       interval: 86400
 
     apple:
       type: http
       behavior: classical
-      url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/DIRECT/Apple.yaml"
+      url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/Clash/DIRECT/Apple.yaml"
       path: ./myConfig/ruleset/direct/apple.yaml
       interval: 86400
   
     microsoft:
       type: http
       behavior: classical
-      url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/DIRECT/Microsoft.yaml"
+      url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/Clash/DIRECT/Microsoft.yaml"
       path: ./myConfig/ruleset/direct/microsoft.yaml
       interval: 86400
 
@@ -162,7 +162,7 @@ rule-providers:
     reject:
       type: http
       behavior: classical
-      url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/REJECT/ADBlock.yaml"
+      url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/Clash/REJECT/ADBlock.yaml"
       path: ./myConfig/ruleset/reject/rejectAD.yaml
       interval: 86400
 
@@ -172,17 +172,17 @@ rule-providers:
 rules:
   - DOMAIN,clash.razord.top,🇨🇳 国内直连
   - DOMAIN,yacd.haishan.me,🇨🇳 国内直连
-  # china
-  - RULE-SET,china,🇨🇳 国内直连
   # apple
   - RULE-SET,apple,🍎 Apple
   # microsoft
   - RULE-SET,bing,🔍 Bing
   - RULE-SET,microsoft,🪟 Microsoft
   # google
-  - RULE-SET,google,🇬 Google
+  - RULE-SET,google,🛸 Google
   # openai
   - RULE-SET,openai,🤖 OpenAI
+  # china
+  - RULE-SET,china,🇨🇳 国内直连
   # 广告拦截
   - RULE-SET,reject,❌️ 广告拦截
   # 其他不在规则内的
