@@ -9,7 +9,7 @@
 > - 不再建议使用Clash for win，建议使用Clash Verge或者Clash Nyanpasu等新内核GUI应用。
 
 
-## 🐱Github Raw
+## :octocat:Github Raw
 - **DIRECT - 直连**<br />
 国内直连： https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/China.yaml<br />
 Microsoft：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/Microsoft.yaml<br />
