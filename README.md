@@ -3,10 +3,9 @@
 <h1 align=center> Proxy Rules - Custom </h1>
 
 个人自定义分流规则<br />
-> - 目前包含
-> - [x] Clash
-> - [x] Shadowrocket
-> - [x] Sing-Box
+- [x] Clash
+- [x] Shadowrocket
+- [x] Sing-Box
 
 > [!TIP]
 > - 根目录下，configClash.yaml为自己自用的配置文件，提供参考，请根据自己的情况修改；
