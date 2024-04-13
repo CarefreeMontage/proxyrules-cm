@@ -5,7 +5,7 @@
 个人自定义分流规则<br />
 
 > [!TIP]
-> - 根目录下，configTemplate.yaml为自己自用的配置文件，提供参考，请根据自己的情况修改；
+> - 根目录下，configClash.yaml为自己自用的配置文件，提供参考，请根据自己的情况修改；
 > - 不再建议使用Clash for win，建议使用Clash Verge或者Clash Nyanpasu等新内核GUI应用。
 
 
