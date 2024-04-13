@@ -166,8 +166,16 @@ payload:
   - DOMAIN-SUFFIX,zjcdn.com
 
   # CCTV
+  - DOMAIN-SUFFIX,cctv.cn
   - DOMAIN-SUFFIX,cctv.com
+  - DOMAIN-SUFFIX,cctvlib.cn
+  - DOMAIN-SUFFIX,cctvlib.com.cn
+  - DOMAIN-SUFFIX,cctvlibrary.cn
+  - DOMAIN-SUFFIX,cctvlibrary.com.cn
   - DOMAIN-SUFFIX,cctvpic.com
+  - DOMAIN-SUFFIX,cctvpro.cn
+  - DOMAIN-SUFFIX,cctvpro.com.cn
+  - DOMAIN-SUFFIX,livechina.cn
   - DOMAIN-SUFFIX,livechina.com
 
   # ChinaNet
@@ -215,6 +223,7 @@ payload:
   - DOMAIN-SUFFIX,qiyi.com
   - DOMAIN-SUFFIX,qiyipic.com
   - DOMAIN-SUFFIX,qy.net
+  - DOMAIN-SUFFIX,qy.com
 
   # JD
   - DOMAIN-SUFFIX,360buy.com
@@ -485,6 +494,8 @@ payload:
   - DOMAIN-SUFFIX,abchina.com
   - DOMAIN-SUFFIX,abercrombie.com
   - DOMAIN-SUFFIX,acfun.tv
+  - DOMAIN-SUFFIX,acfun.cn
+  - DOMAIN-SUFFIX,acfun.com
   - DOMAIN-SUFFIX,air-matters.com
   - DOMAIN-SUFFIX,air-matters.io
   - DOMAIN-SUFFIX,aixifan.com
@@ -599,6 +610,7 @@ payload:
   - DOMAIN-SUFFIX,meituan.net
   - DOMAIN-SUFFIX,meizu.com
   - DOMAIN-SUFFIX,migucloud.com
+  - DOMAIN-SUFFIX,migu.cn
   - DOMAIN-SUFFIX,miguvideo.com
   - DOMAIN-SUFFIX,mobike.com
   - DOMAIN-SUFFIX,mogu.com
@@ -994,9 +1006,6 @@ payload:
   # 数量：45条
 
   # Bilibili 哔哩哔哩
-  - USER-AGENT,Bilibili*
-  - USER-AGENT,bili*
-  - USER-AGENT,bili-inter*
   - DOMAIN,apiintl.biliapi.net
   - DOMAIN,upos-hz-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,acg.tv
@@ -1013,20 +1022,28 @@ payload:
   - DOMAIN-SUFFIX,bilivideo.cn
   - DOMAIN-SUFFIX,bilivideo.com
   - DOMAIN-SUFFIX,hdslb.com
+  - DOMAIN-SUFFIX,hdslb.net
+  - DOMAIN-SUFFIX,hdslb.org
   - DOMAIN-SUFFIX,im9.com
   - DOMAIN-SUFFIX,smtcdns.net
 
   # Iqiyi 爱奇艺
-  - USER-AGENT,QYPlayer*
-  - USER-AGENT,iQIYI*
   - DOMAIN,intel-cache.m.iqiyi.com
   - DOMAIN,intel-cache.video.iqiyi.com
   - DOMAIN,intl-rcd.iqiyi.com
   - DOMAIN,intl-subscription.iqiyi.com
   - DOMAIN-SUFFIX,inter.iqiyi.com
   - DOMAIN-SUFFIX,inter.ptqy.gitv.tv
+  - DOMAIN-SUFFIX,gitv.cn
+  - DOMAIN-SUFFIX,gitv.tv
   - DOMAIN-SUFFIX,intl.iqiyi.com
   - DOMAIN-SUFFIX,iq.com
+  - DOMAIN-SUFFIX,aiqiyicloud-mgmt.com
+  - DOMAIN-SUFFIX,aiqiyicloud.com
+  - DOMAIN-SUFFIX,aiqiyicloud.net
+  - DOMAIN-SUFFIX,iqiyi.demo.uwp
+  - DOMAIN-SUFFIX,iqiyiedge.com
+  - DOMAIN-SUFFIX,iqiyiedge.net
   - IP-CIDR,23.40.241.251/32,no-resolve
   - IP-CIDR,23.40.242.10/32,no-resolve
   - IP-CIDR,103.44.56.0/22,no-resolve
@@ -1038,17 +1055,116 @@ payload:
   # Letv 乐视
   - DOMAIN-SUFFIX,api.mob.app.letv.com
 
-  # MOO
-  - USER-AGENT,MOO*
-  - USER-AGENT,TencentMidasConnect*
-
   # TencentVideo 腾讯视频
   - DOMAIN-SUFFIX,v.smtcdns.com
   - DOMAIN-SUFFIX,vv.video.qq.com
+  - DOMAIN-SUFFIX,tencentmusic.com
 
   # Youku 优酷
   - DOMAIN-SUFFIX,youku.com
+  - DOMAIN-SUFFIX,youku.com.cn
+  - DOMAIN-SUFFIX,youku.org
+  - DOMAIN-SUFFIX,yoku.net.cn
   - IP-CIDR,106.11.0.0/16,no-resolve
+
+  # 其他
+  - DOMAIN-SUFFIX,animetamashi.cn
+  - DOMAIN-SUFFIX,animetamashi.com
+  - DOMAIN-SUFFIX,anitama.cn
+  - DOMAIN-SUFFIX,anitama.net
+  - DOMAIN-SUFFIX,baka.im
+  - DOMAIN-SUFFIX,bigfun.cn
+  - DOMAIN-SUFFIX,bigfunapp.cn
+  - DOMAIN-SUFFIX,corari.com
+  - DOMAIN-SUFFIX,dreamcast.hk
+  - DOMAIN-SUFFIX,dyhgames.co
+  - DOMAIN-SUFFIX,maoercdn.com
+  - DOMAIN-SUFFIX,mcbbs.net
+  - DOMAIN-SUFFIX,mincdn.com
+  - DOMAIN-SUFFIX,sharejoytech.com
+  - DOMAIN-SUFFIX,yo9.com
+  - DOMAIN-SUFFIX,chinaepg.cn
+  - DOMAIN-SUFFIX,chinalive.com
+  - DOMAIN-SUFFIX,citv.net.cn
+  - DOMAIN-SUFFIX,cnms.net.cn
+  - DOMAIN-SUFFIX,cntv.cn
+  - DOMAIN-SUFFIX,cntv.com.cn
+  - DOMAIN-SUFFIX,cntvwb.cn
+  - DOMAIN-SUFFIX,gjgbdszt.cn
+  - DOMAIN-SUFFIX,gjgbdszt.com.cn
+  - DOMAIN-SUFFIX,gjgbdszt.net.cn
+  - DOMAIN-SUFFIX,ipanda.cn
+  - DOMAIN-SUFFIX,ipanda.com
+  - DOMAIN-SUFFIX,ipanda.com.cn
+  - DOMAIN-SUFFIX,ipanda.net
+  - DOMAIN-SUFFIX,olympicchannelchina.cn
+  - DOMAIN-SUFFIX,tvcc.cn
+  - DOMAIN-SUFFIX,tvcc.com.cn
+  - DOMAIN-SUFFIX,xn--fiq53l6wcx3kp9bc7joo6apn8a.cn
+  - DOMAIN-SUFFIX,xn--fiq53l6wcx3kp9bc7joo6apn8a.xn--fiqs8s
+  - DOMAIN-SUFFIX,xn--fiq53l90et9fpncc7joo6apn8a.cn
+  - DOMAIN-SUFFIX,xn--kprv4ewxfr9cpxcc7joo6apn8a.cn
+  - DOMAIN-SUFFIX,xn--kprv4ewxfr9cpxcc7joo6apn8a.xn--fiqs8s
+  - DOMAIN-SUFFIX,zggbdszt.cn
+  - DOMAIN-SUFFIX,zggbdszt.com.cn
+  - DOMAIN-SUFFIX,zggbdszt.net.cn
+  - DOMAIN-SUFFIX,zygbdszt.net.cn
+  - DOMAIN-SUFFIX,0co3geye.cn
+  - DOMAIN-SUFFIX,2isbbess.cn
+  - DOMAIN-SUFFIX,33lwhaoinc.cn
+  - DOMAIN-SUFFIX,52mtkvideo.cn
+  - DOMAIN-SUFFIX,9xsecndns.cn
+  - DOMAIN-SUFFIX,ads1.lfengmobile.com
+  - DOMAIN-SUFFIX,aianno.cn
+  - DOMAIN-SUFFIX,aianno.com
+  - DOMAIN-SUFFIX,androidgo.duapp.com
+  - DOMAIN-SUFFIX,b82yxres.cn
+  - DOMAIN-SUFFIX,baiying.com
+  - DOMAIN-SUFFIX,cdn.zampdsp.com
+  - DOMAIN-SUFFIX,cm.fancyapi.com
+  - DOMAIN-SUFFIX,cmvideo.cn
+  - DOMAIN-SUFFIX,dmhmusic.com
+  - DOMAIN-SUFFIX,gamenow.club
+  - DOMAIN-SUFFIX,hifuntv.com
+  - DOMAIN-SUFFIX,hunaniptv.com
+  - DOMAIN-SUFFIX,ibkstore.com
+  - DOMAIN-SUFFIX,imgo.tv
+  - DOMAIN-SUFFIX,itc.cn
+  - DOMAIN-SUFFIX,jiangbing.cn
+  - DOMAIN-SUFFIX,jstucdn.com
+  - DOMAIN-SUFFIX,kumiao.com
+  - DOMAIN-SUFFIX,kumiao.tv
+  - DOMAIN-SUFFIX,kuwo.cn
+  - DOMAIN-SUFFIX,kuxiaomiao.cn
+  - DOMAIN-SUFFIX,kuxiaomiao.com
+  - DOMAIN-SUFFIX,kuxiaomiao.com.cn
+  - DOMAIN-SUFFIX,kuxiaomiao.net
+  - DOMAIN-SUFFIX,noxagile.duapp.com
+  - DOMAIN-SUFFIX,ns6mitkxo.cn
+  - DOMAIN-SUFFIX,pps.tv
+  - DOMAIN-SUFFIX,ppsimg.com
+  - DOMAIN-SUFFIX,ppstream.cn
+  - DOMAIN-SUFFIX,ppstream.com
+  - DOMAIN-SUFFIX,ppstream.com.cn
+  - DOMAIN-SUFFIX,ppstream.net
+  - DOMAIN-SUFFIX,ppstream.net.cn
+  - DOMAIN-SUFFIX,ppsurl.com
+  - DOMAIN-SUFFIX,s.zampdsp.com
+  - DOMAIN-SUFFIX,sk2cdsnw.cn
+  - DOMAIN-SUFFIX,sogoodtech1.cn
+  - DOMAIN-SUFFIX,suike.cn
+  - DOMAIN-SUFFIX,tazai.com
+  - DOMAIN-SUFFIX,tudou.com
+  - DOMAIN-SUFFIX,videojj.com
+  - DOMAIN-SUFFIX,wenyupages.com
+  - DOMAIN-SUFFIX,wingsmobiletek.cn
+  - DOMAIN-SUFFIX,yodou.com
+  - DOMAIN-SUFFIX,yoqoo.com
+  - DOMAIN-SUFFIX,yoqoo.net
+  - DOMAIN-SUFFIX,yoqoo.net.cn
+  - DOMAIN-SUFFIX,yoqoo.tv
+  - DOMAIN-SUFFIX,youqoo.net
+  - DOMAIN-SUFFIX,zamplus.com
 
 #🔶 国内IP地址列表
   - IP-CIDR,1.0.1.0/24
@@ -107284,3 +107400,4 @@ payload:
   - IP-CIDR6,2c0f:f7a8:9041::/48
   - IP-CIDR6,2c0f:f7a8:9210::/47
   - IP-CIDR6,2c0f:f7a8:9220::/48
+
