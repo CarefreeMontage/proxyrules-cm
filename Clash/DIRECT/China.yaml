@@ -329,23 +329,23 @@ payload:
   - DOMAIN,dota2.wmsj.cn
   - DOMAIN,wmsjsteam.com
   # Steam国内CDN
-    # 华为云
-    - DOMAIN,steampipe.steamcontent.tnkjmec.com
-    # 白山云
-    - DOMAIN,st.dl.eccdnx.com
-    - DOMAIN,st.dl.bscstorage.net
-    - DOMAIN,st.dl.pinyuncloud.com
-    # 金山云
-    - DOMAIN,dl.steam.clngaa.com
-    - DOMAIN,dl.steam.ksyna.com
-    # 网宿
-    - DOMAIN,cdn.mileweb.cs.steampowered.com.8686c.com
-    - DOMAIN,cdn-ws.content.steamchina.com
-    # 腾讯云（国区Steam域名）
-    - DOMAIN,cdn-qc.content.steamchina.com
-    # 阿里云
-    - DOMAIN,cdn-ali.content.steamchina.com
-    - DOMAIN,xz.pphimalayanrt.com
+  # 华为云
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com
+  # 白山云
+  - DOMAIN,st.dl.eccdnx.com
+  - DOMAIN,st.dl.bscstorage.net
+  - DOMAIN,st.dl.pinyuncloud.com
+  # 金山云
+  - DOMAIN,dl.steam.clngaa.com
+  - DOMAIN,dl.steam.ksyna.com
+  # 网宿
+  - DOMAIN,cdn.mileweb.cs.steampowered.com.8686c.com
+  - DOMAIN,cdn-ws.content.steamchina.com
+  # 腾讯云（国区Steam域名）
+  - DOMAIN,cdn-qc.content.steamchina.com
+  # 阿里云
+  - DOMAIN,cdn-ali.content.steamchina.com
+  - DOMAIN,xz.pphimalayanrt.com
 
   # Epic中国地区下载
   - DOMAIN,epicgames-download1-1251447533.file.myqcloud.com
