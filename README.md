@@ -3,13 +3,17 @@
 <h1 align=center> Proxy Rules - Custom </h1>
 
 个人自定义分流规则<br />
+> - 目前包含
+> - [x] Clash
+> - [x] Shadowrocket
+> - [x] Sing-Box
 
 > [!TIP]
 > - 根目录下，configClash.yaml为自己自用的配置文件，提供参考，请根据自己的情况修改；
 > - 不再建议使用Clash for win，建议使用Clash Verge或者Clash Nyanpasu等新内核GUI应用。
 
 
-## :octocat:Github Raw
+## :octocat: Github Raw
 - **DIRECT - 直连**<br />
 国内直连： https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/China.yaml<br />
 Microsoft：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/Microsoft.yaml<br />
