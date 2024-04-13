@@ -3,9 +3,10 @@
 <h1 align=center> Proxy Rules - Custom </h1>
 
 个人自定义分流规则<br />
+## 可用
 - [x] Clash
-- [x] Shadowrocket
-- [x] Sing-Box
+- [ ] Shadowrocket
+- [ ] Sing-Box
 
 > [!TIP]
 > - 根目录下，configClash.yaml为自己自用的配置文件，提供参考，请根据自己的情况修改；
@@ -15,7 +16,7 @@
 ## :octocat: Github Raw
 - **DIRECT - 直连**<br />
 国内直连： https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/China.yaml<br />
-Microsoft：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/Microsoft.yaml<br />
+微软：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/Microsoft.yaml<br />
 Apple：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/Apple.yam
 
 - **PROXY - 代理**<br />
@@ -30,7 +31,7 @@ OpenAI：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Cl
 ## ⚡CDN jsDelivr
 - **DIRECT - 直连**<br />
 国内直连：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/DIRECT/China.yaml<br />
-Microsoft：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/DIRECT/Microsoft.yaml<br />
+微软：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/DIRECT/Microsoft.yaml<br />
 Apple：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/DIRECT/Apple.yaml
 
 - **PROXY - 代理**<br />
