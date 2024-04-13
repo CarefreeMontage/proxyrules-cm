@@ -11,30 +11,30 @@
 
 ## 🐱Github Raw
 - **DIRECT - 直连**<br />
-    - 国内直连： https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/China.yaml<br />
-    - Microsoft：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/Microsoft.yaml<br />
-    - Apple：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/Apple.yam
+国内直连： https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/China.yaml<br />
+Microsoft：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/Microsoft.yaml<br />
+Apple：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/Apple.yam
 
 - **PROXY - 代理**<br />
-    - GFW-被墙：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/GFW.yaml<br />
-    - Google：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/Google.yaml<br />
-    - Bing：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/Bing.yaml<br />
-    - OpenAI：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/OpenAI.yaml
+GFW-被墙：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/GFW.yaml<br />
+Google：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/Google.yaml<br />
+Bing：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/Bing.yaml<br />
+OpenAI：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/OpenAI.yaml
 
 - **REJECT - 屏蔽广告**<br />
-    - 广告：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/REJECT/ADBlock.yaml
+广告：https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/REJECT/ADBlock.yaml
 
 ## ⚡CDN jsDelivr
 - **DIRECT - 直连**<br />
-    - 国内直连：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/DIRECT/China.yaml<br />
-    - Microsoft：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/DIRECT/Microsoft.yaml<br />
-    - Apple：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/DIRECT/Apple.yaml
+国内直连：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/DIRECT/China.yaml<br />
+Microsoft：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/DIRECT/Microsoft.yaml<br />
+Apple：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/DIRECT/Apple.yaml
 
 - **PROXY - 代理**<br />
-    - GFW-被墙：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/GFW.yaml<br />
-    - Google：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/Google.yaml<br />
-    - Bing：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/Bing.yaml<br />
-    - OpenAI：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/OpenAI.yaml
+GFW-被墙：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/GFW.yaml<br />
+Google：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/Google.yaml<br />
+Bing：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/Bing.yaml<br />
+OpenAI：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/OpenAI.yaml
 
 - **REJECT - 屏蔽广告**<br />
-    - 广告：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/REJECT/ADBlock.yaml
+广告：https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/REJECT/ADBlock.yaml
