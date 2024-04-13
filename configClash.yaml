@@ -172,6 +172,8 @@ rule-providers:
 rules:
   - DOMAIN,clash.razord.top,🇨🇳 国内直连
   - DOMAIN,yacd.haishan.me,🇨🇳 国内直连
+  # 广告拦截
+  - RULE-SET,reject,❌️ 广告拦截
   # apple
   - RULE-SET,apple,🍎 Apple
   # microsoft
@@ -183,8 +185,6 @@ rules:
   - RULE-SET,openai,🤖 OpenAI
   # china
   - RULE-SET,china,🇨🇳 国内直连
-  # 广告拦截
-  - RULE-SET,reject,❌️ 广告拦截
   # 其他不在规则内的
   - GEOIP,CN,🇨🇳 国内直连
   - MATCH,🚀 代理节点
