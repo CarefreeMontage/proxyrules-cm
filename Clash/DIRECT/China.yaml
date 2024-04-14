@@ -1,4 +1,5 @@
 # China (已包括国内域名/IP/媒体)
+# Update: 2024-04-12
 payload:
 #🔶 国内域名列表
 
@@ -192,12 +193,6 @@ payload:
   - DOMAIN-SUFFIX,douyuscdn.com
   - DOMAIN-SUFFIX,douyutv.com
 
-  # Epic
-  - DOMAIN-SUFFIX,epicgames.com
-  - DOMAIN-SUFFIX,helpshift.com
-  - DOMAIN-SUFFIX,paragon.com
-  - DOMAIN-SUFFIX,unrealengine.com
-
   # HuaWei
   - DOMAIN-SUFFIX,dbankcdn.com
   - DOMAIN-SUFFIX,hc-cdn.com
@@ -349,6 +344,8 @@ payload:
   - DOMAIN,dl.steam.ksyna.com
   # 网宿
   - DOMAIN,cdn.mileweb.cs.steampowered.com.8686c.com
+  - DOMAIN,steampowered.com.8686c.com
+  - DOMAIN,steamstatic.com.8686c.com
   - DOMAIN,cdn-ws.content.steamchina.com
   # 腾讯云（国区Steam域名）
   - DOMAIN,cdn-qc.content.steamchina.com
@@ -356,6 +353,11 @@ payload:
   - DOMAIN,cdn-ali.content.steamchina.com
   - DOMAIN,xz.pphimalayanrt.com
 
+  # Epic
+  - DOMAIN-SUFFIX,epicgames.com
+  - DOMAIN-SUFFIX,helpshift.com
+  - DOMAIN-SUFFIX,paragon.com
+  - DOMAIN-SUFFIX,unrealengine.com
   # Epic中国地区下载
   - DOMAIN,epicgames-download1-1251447533.file.myqcloud.com
 
