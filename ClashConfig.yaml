@@ -1,4 +1,4 @@
-#-----------------------------------------------------------------#
+6#-----------------------------------------------------------------#
 ## 自用Clash配置模板
 ## 作者：Carefree Montage
 ## 更新：2024-04-12 
@@ -190,7 +190,7 @@ rules:
   # google
   - RULE-SET,google,🛸 Google
   # netflix
-  - RULE-SET,netflix,📺 netflix
+  - RULE-SET,netflix,📺 Netflix
   # openai
   - RULE-SET,openai,🤖 OpenAI
   # china
