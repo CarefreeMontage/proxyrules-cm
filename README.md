@@ -15,8 +15,8 @@
 ## Repo Info
 |代理工具| 配置文件 | 规则集 | 备注 |
 |:---:|:---:|:---:|:---:|
-|Clash Meta  |[ClashConfig.yaml](https://github.com/CarefreeMontage/proxyrules-cm/blob/main/ClashConfig.yaml)|[./Clash/](https://github.com/CarefreeMontage/proxyrules-cm/tree/main/Clash)|✔️|
-|Quantumult X|[QuantumultX.conf](https://github.com/CarefreeMontage/proxyrules-cm/blob/main/QuantumultX.conf)|[./QuantumultX/](https://github.com/CarefreeMontage/proxyrules-cm/tree/main/QuantumultX)|✔️|
+|Clash Meta  |[ClashConfig.yaml](https://github.com/CarefreeMontage/proxyrules-cm/blob/main/ClashConfig.yaml)|[./Clash/](https://github.com/CarefreeMontage/proxyrules-cm/tree/main/Clash)|✓|
+|Quantumult X|[QuantumultX.conf](https://github.com/CarefreeMontage/proxyrules-cm/blob/main/QuantumultX.conf)|[./QuantumultX/](https://github.com/CarefreeMontage/proxyrules-cm/tree/main/QuantumultX)|✓|
 |Sing-Box    |待完善|[./Sing-Box/](https://github.com/CarefreeMontage/proxyrules-cm/tree/main/Sing-Box)|规则集可用|
  Shadowrocket|未计划|未计划|不怎么用，有空再搞
 - [x] Clash Meta (Verge/Nyanpasu/...)
@@ -24,7 +24,7 @@
 - [ ] Shadowrocket
 - [ ] Sing-Box
 
-> [!TIP]
+> [!WARNING]
 >
 > **叠甲**:
 >
@@ -35,17 +35,29 @@
 > 本仓库中所有内容只供学习和研究使用，基于该仓库源代码进行的任何修改，为其他个人或组织的自发行为，与本项目没有任何直接或间接的关系，所造成的一切后果亦与本项目无关。
 
 ## Quick Start
-#### 导入节点
-Clash Meta
-> 以Clash为例，将本仓库配置文件远程导入
 
+### 1、导入配置文件
+#### Clash Meta(Verge/Nyanpasu):
+> 配置设置中输入配置文件链接https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/ClashConfig.yaml 点击导入 <details><summary> 展开图片 </summary>![](source/info3.png)</details>
+#### Quantumult X:
+> 找到该页面，点击下载配置,输入https://github.com/CarefreeMontage/proxyrules-cm/blob/main/QuantumultX.conf 导入配置 <details><summary> 展开图片 </summary>![](source/info5.png)</details>
 
-#### 规则集导入
-通过远程导入分流规则，远程规则链接请看 [Rules Source](README.md#rules-source)
+### 2、导入节点
+#### Clash Meta(Verge/Nyanpasu):
+> 在导入的配置文件中替换你的订阅地址 <details><summary> 展开图片 </summary>![](source/info4.png)</details>
+#### Quantumult X:
+> 在节点资源中输入你的订阅地址进行导入 <details><summary> 展开图片 </summary>![](source/info6.png)</details> <details><summary> 展开图片 </summary>![](source/info7.png)</details>
 
-<details>
-<summary>👆 Clash Meta </summary>
+### 3、规则集导入
+通过远程导入分流规则，远程规则链接请看 [Rules Source](README.md#rules-source)，以下为不同代理工具中的导入方法
+> Clash Meta(Verge/Nyanpasu)只能源代码导入
+> 
+> Quantumult X可以在规则资源中通过GUI交互导入，也可以在配置文件源代码中导入
+> 
+> Sing-Box目前应该也只能从源代码导入
 
+以下为源代码导入
+- **Clash Meta**
 ```
 #仅为参考，请根据自己需求修改
 
@@ -107,11 +119,8 @@ rule-providers:
 
   #......之后有需要再加
 ```
-</details>
 
-<details>
-<summary>👆 Quantumult X </summary>
-
+- **Quantumult X**
 ```
 #仅为参考，请根据自己需求修改
 
@@ -129,11 +138,8 @@ https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/QuantumultX
 #广告拦截
 https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/REJECT/ADBlock.yaml, tag=❌️ 广告来源, force-policy=你的策略组名, update-interval=172800, opt-parser=false, enabled=true
 ```
-</details>
 
-<details>
-<summary>👆 Sing-Box </summary>
-
+- **Sing-Box**
 ```
 //仅为参考，请根据自己需求修改
 
