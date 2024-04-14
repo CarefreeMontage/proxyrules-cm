@@ -103,14 +103,15 @@ proxy-providers:
 # 策略组
 proxy-groups:
   # 根据自己的订阅内容修改
-  - { name: '🚀 代理节点', type: select, use: ['Node-Info', 'Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
-  - { name: '🛸 Google', type: select, use: ['Node-US'] }
-  - { name: '🔍 Bing', type: select, proxies: ['🚀 代理节点', '🇨🇳 国内直连'], use: ['Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
-  - { name: '🤖 OpenAI', type: select, use: ['Node-SG', 'Node-US'] }
-  - { name: '🇨🇳 国内直连', type: select, proxies: ['DIRECT'] }
-  - { name: '🍎 Apple', type: select, proxies: ['🇨🇳 国内直连', '🚀 代理节点'], use: ['Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
+  - { name: '🚀 代理节点'  , type: select, use: ['Node-Info', 'Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
+  - { name: '🛸 Google'   , type: select, use: ['Node-US'] }
+  - { name: '📺 Netflix'  , type: select, proxies: ['🚀 代理节点'], use: ['Node-SG', 'Node-HK', 'Node-US'] }
+  - { name: '🔍 Bing'     , type: select, proxies: ['🚀 代理节点', '🇨🇳 国内直连'], use: ['Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
+  - { name: '🤖 OpenAI'   , type: select, use: ['Node-SG', 'Node-US'] }
+  - { name: '🇨🇳 国内直连'  , type: select, proxies: ['DIRECT'] }
+  - { name: '🍎 Apple'    , type: select, proxies: ['🇨🇳 国内直连', '🚀 代理节点'], use: ['Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
   - { name: '🪟 Microsoft', type: select, proxies: ['🇨🇳 国内直连','🚀 代理节点'], use: ['Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
-  - { name: '❌️ 广告拦截', type: select, proxies: ['REJECT'] }
+  - { name: '❌️ 广告拦截'  , type: select, proxies: ['REJECT'] }
 
 # 规则集
 rule-providers:
@@ -120,6 +121,13 @@ rule-providers:
       behavior: classical
       url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/Google.yaml"
       path: ./myConfig/ruleset/proxy/google.yaml
+      interval: 86400
+
+    netflix:
+      type: http
+      behavior: classical
+      url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/Netflix.yaml"
+      path: ./myConfig/ruleset/proxy/netflix.yaml
       interval: 86400
   
     bing:
@@ -181,6 +189,8 @@ rules:
   - RULE-SET,microsoft,🪟 Microsoft
   # google
   - RULE-SET,google,🛸 Google
+  # netflix
+  - RULE-SET,netflix,📺 netflix
   # openai
   - RULE-SET,openai,🤖 OpenAI
   # china
