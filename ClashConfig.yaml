@@ -105,7 +105,7 @@ proxy-groups:
   # 根据自己的订阅内容修改
   - { name: '🚀 代理节点'  , type: select, use: ['Node-Info', 'Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
   - { name: '🛸 Google'   , type: select, use: ['Node-US'] }
-  - { name: '📺 Netflix'  , type: select, proxies: ['🚀 代理节点'], use: ['Node-SG', 'Node-HK', 'Node-US'] }
+  - { name: '📺 Netflix'  , type: select, use: ['Node-SG', 'Node-HK', 'Node-JP', 'Node-US'] }
   - { name: '🔍 Bing'     , type: select, proxies: ['🚀 代理节点', '🇨🇳 国内直连'], use: ['Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
   - { name: '🤖 OpenAI'   , type: select, use: ['Node-SG', 'Node-US'] }
   - { name: '🇨🇳 国内直连'  , type: select, proxies: ['DIRECT'] }
