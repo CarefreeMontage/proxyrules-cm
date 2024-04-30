@@ -31,9 +31,9 @@
 
 ### 1、导入配置文件
 #### Clash Meta(Verge/Nyanpasu):
-> 配置设置中输入配置文件链接[ClashConfig.yaml](https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/ClashConfig.yaml) 点击导入 <details><summary> 展开图片 </summary>![](source/info3.png)</details>
+> 配置设置中输入配置文件链接 https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/ClashConfig.yaml 点击导入 <details><summary> 展开图片 </summary>![](source/info3.png)</details>
 #### Quantumult X:
-> 找到该页面，点击下载配置,输入[QuantumultX.conf](https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX.conf) 导入配置 <details><summary> 展开图片 </summary>![](source/info5.png)</details>
+> 找到该页面，点击下载配置,输入 https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX.conf 导入配置 <details><summary> 展开图片 </summary>![](source/info5.png)</details>
 
 ### 2、导入节点
 #### Clash Meta(Verge/Nyanpasu):
