@@ -35,7 +35,7 @@
 > 
 > https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/ClashConfig.yaml
 > 
-> https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/ClashConfig.yaml
+> https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/ClashConfig.yaml
 > 
 > 点击导入 <details><summary> 展开图片 </summary>![](source/info3.png)</details>
 #### Quantumult X:
@@ -43,7 +43,7 @@
 > 
 > https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX.conf
 >
-> https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/QuantumultX.conf
+> https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/QuantumultX.conf
 > 
 > 导入配置 <details><summary> 展开图片 </summary>![](source/info5.png)</details>
 
@@ -223,19 +223,19 @@ https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/DIREC
 
 #### :octocat: Github Raw
 - **DIRECT - 直连**<br />
-国内:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/China.yaml<br />
-微软:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/Microsoft.yaml<br />
-Apple:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/Apple.yaml
+国内:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/China.yaml<br />
+微软:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/Microsoft.yaml<br />
+Apple:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/Apple.yaml
 
 - **PROXY - 代理**<br />
-GFW:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/GFW.yaml<br />
-Google:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/Google.yaml<br />
-Netflix:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/Netflix.yaml<br />
-Bing:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/Bing.yaml<br />
-OpenAI:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/OpenAI.yaml
+GFW:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/GFW.yaml<br />
+Google:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/Google.yaml<br />
+Netflix:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/Netflix.yaml<br />
+Bing:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/Bing.yaml<br />
+OpenAI:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/OpenAI.yaml
 
 - **REJECT - 屏蔽广告**<br />
-广告:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Clash/REJECT/ADBlock.yaml
+广告:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Clash/REJECT/ADBlock.yaml
 
 #### ⚡CDN jsDelivr
 - **DIRECT - 直连**<br />
@@ -260,18 +260,18 @@ OpenAI:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROX
 
 #### :octocat: Github Raw
 - **DIRECT - 直连**<br />
-国内:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/DIRECT/China.yaml<br />
-微软:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/DIRECT/Microsoft.yaml<br />
-Apple:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/DIRECT/Apple.yaml
+国内:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/DIRECT/China.yaml<br />
+微软:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/DIRECT/Microsoft.yaml<br />
+Apple:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/DIRECT/Apple.yaml
 
 - **PROXY - 代理**<br />
-Google:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/PROXY/Google.yaml<br />
-Netflix:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/PROXY/Netflix.yaml<br />
-Bing:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/PROXY/Bing.yaml<br />
-OpenAI:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/PROXY/OpenAI.yaml
+Google:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/PROXY/Google.yaml<br />
+Netflix:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/PROXY/Netflix.yaml<br />
+Bing:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/PROXY/Bing.yaml<br />
+OpenAI:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/PROXY/OpenAI.yaml
 
 - **REJECT - 屏蔽广告**<br />
-广告:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/REJECT/ADBlock.yaml
+广告:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/REJECT/ADBlock.yaml
 
 #### ⚡CDN jsDelivr
 - **DIRECT - 直连**<br />
@@ -295,19 +295,19 @@ OpenAI:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Quantumult
 
 #### :octocat: Github Raw
 - **DIRECT - 直连**<br />
-国内:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/DIRECT/China.json<br />
-微软:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/DIRECT/Microsoft.json<br />
-Apple:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/DIRECT/Apple.json
+国内:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/DIRECT/China.json<br />
+微软:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/DIRECT/Microsoft.json<br />
+Apple:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/DIRECT/Apple.json
 
 - **PROXY - 代理**<br />
-GFW:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/GFW.json<br />
-Google:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/Google.json<br />
-Netflix:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/Netflix.json<br />
-Bing:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/Bing.json<br />
-OpenAI:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/OpenAI.json
+GFW:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/GFW.json<br />
+Google:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/Google.json<br />
+Netflix:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/Netflix.json<br />
+Bing:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/Bing.json<br />
+OpenAI:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/OpenAI.json
 
 - **REJECT - 屏蔽广告**<br />
-广告:https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/REJECT/ADBlock.json
+广告:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/REJECT/ADBlock.json
 
 #### ⚡CDN jsDelivr
 - **DIRECT - 直连**<br />
