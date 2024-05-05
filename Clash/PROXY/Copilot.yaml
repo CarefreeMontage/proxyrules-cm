@@ -10,7 +10,6 @@ payload:
   - DOMAIN,gateway.bingviz.microsoftapp.net
   - DOMAIN,in.appcenter.ms
   - DOMAIN,odc.officeapps.live.com
-  - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN,self.events.data.microsoft.com
   - DOMAIN,services.bingapis.com
   - DOMAIN,static.cloudflareinsights.com

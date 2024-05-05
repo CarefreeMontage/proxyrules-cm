@@ -10,7 +10,6 @@ HOST,gateway.bingviz.microsoftapp.net,Copilot
 HOST,in.appcenter.ms,Copilot
 HOST,location.microsoft.com,Copilot
 HOST,odc.officeapps.live.com,Copilot
-HOST,production-openaicom-storage.azureedge.net,Copilot
 HOST,self.events.data.microsoft.com,Copilot
 HOST,services.bingapis.com,Copilot
 HOST,static.cloudflareinsights.com,Copilot
@@ -33,7 +32,6 @@ HOST-SUFFIX,segment.io,Copilot
 HOST-SUFFIX,sentry.io,Copilot
 HOST-SUFFIX,stripe.com,Copilot
 HOST-SUFFIX,turn.livekit.cloud,Copilot
-HOST-KEYWORD,openaicom-api,Copilot
 IP-CIDR,24.199.123.28/32,Copilot
 IP-CIDR,64.23.132.171/32,Copilot
 IP-ASN,14061,Copilot
