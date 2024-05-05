@@ -9,7 +9,7 @@
 > [!TIP]
 > 以下为我的需求:
 >
-> Google走美国，Netflix默认走新加坡且可选其他节点，Bing走代理且可选直连，OpenAI走代理且可选其他节点，Apple走直连且可选其他节点，Microsoft走直连且可选其他节点，国内网站/ip/流媒体走直连，其余走代理。
+> Google走美国，Netflix默认走新加坡且可选其他节点，Copilot走代理且可选直连，OpenAI走代理且可选其他节点，Apple走直连且可选其他节点，Microsoft走直连且可选其他节点，国内网站/ip/流媒体走直连，其余走代理。
 
 ## Repo Info
 |代理工具| 配置文件 | 规则集 | 备注 |
@@ -136,7 +136,7 @@ https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/REJEC
 #代理
 https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/PROXY/Google.yaml, tag=🛸 谷歌服务, force-policy=Google, update-interval=172800, opt-parser=false, enabled=true
 https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/PROXY/Netflix.yaml, tag=📺 奈飞视频, force-policy=Netflix, update-interval=172800, opt-parser=false, enabled=true
-https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/PROXY/Bing.yaml, tag=💬 Copilot, force-policy=Copilot, update-interval=172800, opt-parser=false, enabled=true
+https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/PROXY/Copilot.yaml, tag=💬 Copilot, force-policy=Copilot, update-interval=172800, opt-parser=false, enabled=true
 https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/PROXY/OpenAI.yaml, tag=🤖 OpenAI, force-policy=OpenAI, update-interval=172800, opt-parser=false, enabled=true
 #直连
 https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/DIRECT/Apple.yaml, tag=🍎 苹果服务, force-policy=Apple, update-interval=172800, opt-parser=false, enabled=true
@@ -231,7 +231,7 @@ Apple:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Clash/DIRECT/
 GFW:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/GFW.yaml<br />
 Google:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/Google.yaml<br />
 Netflix:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/Netflix.yaml<br />
-Bing:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/Bing.yaml<br />
+Copilot:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/Copilot.yaml<br />
 OpenAI:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Clash/PROXY/OpenAI.yaml
 
 - **REJECT - 屏蔽广告**<br />
@@ -247,7 +247,7 @@ Apple:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/DIREC
 GFW-被墙:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/GFW.yaml<br />
 Google:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/Google.yaml<br />
 Netflix:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/Netflix.yaml<br />
-Bing:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/Bing.yaml<br />
+Copilot:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/Copilot.yaml<br />
 OpenAI:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/OpenAI.yaml
 
 - **REJECT - 屏蔽广告**<br />
@@ -267,7 +267,7 @@ Apple:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/D
 - **PROXY - 代理**<br />
 Google:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/PROXY/Google.yaml<br />
 Netflix:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/PROXY/Netflix.yaml<br />
-Bing:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/PROXY/Bing.yaml<br />
+Copilot:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/PROXY/Copilot.yaml<br />
 OpenAI:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/QuantumultX/PROXY/OpenAI.yaml
 
 - **REJECT - 屏蔽广告**<br />
@@ -282,7 +282,7 @@ Apple:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX
 - **PROXY - 代理**<br />
 Google:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/PROXY/Google.yaml<br />
 Netflix:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/PROXY/Netflix.yaml<br />
-Bing:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/PROXY/Bing.yaml<br />
+Copilot:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/PROXY/Copilot.yaml<br />
 OpenAI:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/PROXY/OpenAI.yaml
 
 - **REJECT - 屏蔽广告**<br />
@@ -303,7 +303,7 @@ Apple:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/DIRE
 GFW:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/GFW.json<br />
 Google:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/Google.json<br />
 Netflix:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/Netflix.json<br />
-Bing:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/Bing.json<br />
+Copilot:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/Copilot.json<br />
 OpenAI:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/OpenAI.json
 
 - **REJECT - 屏蔽广告**<br />
@@ -319,7 +319,7 @@ Apple:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Sing-Box/DI
 GFW-被墙:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Sing-Box/PROXY/GFW.json<br />
 Google:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Sing-Box/PROXY/Google.json<br />
 Netflix:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Sing-Box/PROXY/Netflix.json<br />
-Bing:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Sing-Box/PROXY/Bing.json<br />
+Copilot:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Sing-Box/PROXY/Copilot.json<br />
 OpenAI:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Sing-Box/PROXY/OpenAI.json
 
 - **REJECT - 屏蔽广告**<br />
