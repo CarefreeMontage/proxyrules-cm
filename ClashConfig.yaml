@@ -130,11 +130,11 @@ rule-providers:
       path: ./myConfig/ruleset/proxy/netflix.yaml
       interval: 86400
   
-    Copilot:
+    copilot:
       type: http
       behavior: classical
       url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/Copilot.yaml"
-      path: ./myConfig/ruleset/proxy/Copilot.yaml
+      path: ./myConfig/ruleset/proxy/copilot.yaml
       interval: 86400
 
     openai:
@@ -185,7 +185,7 @@ rules:
   # apple
   - RULE-SET,apple,🍎 Apple
   # microsoft
-  - RULE-SET,Copilot,💬 Copilot
+  - RULE-SET,copilot,💬 Copilot
   - RULE-SET,microsoft,🪟 Microsoft
   # google
   - RULE-SET,google,🛸 Google
