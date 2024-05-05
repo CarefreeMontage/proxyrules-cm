@@ -31,9 +31,21 @@
 
 ### 1、导入配置文件
 #### Clash Meta(Verge/Nyanpasu):
-> 配置设置中输入配置文件链接 https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/ClashConfig.yaml 点击导入 <details><summary> 展开图片 </summary>![](source/info3.png)</details>
+> 配置设置中输入配置文件链接（二选一）
+> 
+> https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/ClashConfig.yaml
+> 
+> https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/ClashConfig.yaml
+> 
+> 点击导入 <details><summary> 展开图片 </summary>![](source/info3.png)</details>
 #### Quantumult X:
-> 找到该页面，点击下载配置,输入 https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX.conf 导入配置 <details><summary> 展开图片 </summary>![](source/info5.png)</details>
+> 找到该页面，点击下载配置,输入链接（二选一）
+> 
+> https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX.conf
+>
+> https://raw.githubusercontent.com/CarefreeMontage/proxyrules-cm/main/QuantumultX.conf
+> 
+> 导入配置 <details><summary> 展开图片 </summary>![](source/info5.png)</details>
 
 ### 2、导入节点
 #### Clash Meta(Verge/Nyanpasu):
@@ -69,11 +81,11 @@ rule-providers:
       url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/Netflix.yaml"
       path: ./myConfig/ruleset/proxy/netflix.yaml
       interval: 86400
-    bing:
+    copilot:
       type: http
       behavior: classical
-      url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/Bing.yaml"
-      path: ./myConfig/ruleset/proxy/bing.yaml
+      url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/Copilot.yaml"
+      path: ./myConfig/ruleset/proxy/copilot.yaml
       interval: 86400
     openai:
       type: http
@@ -124,7 +136,7 @@ https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/REJEC
 #代理
 https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/PROXY/Google.yaml, tag=🛸 谷歌服务, force-policy=Google, update-interval=172800, opt-parser=false, enabled=true
 https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/PROXY/Netflix.yaml, tag=📺 奈飞视频, force-policy=Netflix, update-interval=172800, opt-parser=false, enabled=true
-https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/PROXY/Bing.yaml, tag=🔍 必应引擎, force-policy=Bing, update-interval=172800, opt-parser=false, enabled=true
+https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/PROXY/Bing.yaml, tag=💬 Copilot, force-policy=Copilot, update-interval=172800, opt-parser=false, enabled=true
 https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/PROXY/OpenAI.yaml, tag=🤖 OpenAI, force-policy=OpenAI, update-interval=172800, opt-parser=false, enabled=true
 #直连
 https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/DIRECT/Apple.yaml, tag=🍎 苹果服务, force-policy=Apple, update-interval=172800, opt-parser=false, enabled=true
@@ -164,11 +176,11 @@ https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/QuantumultX/DIREC
         "url": "https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/Sing-Box/PROXY/Netflix.json"
       },
       {
-        "tag": "bing",
+        "tag": "copilot",
         "type": "remote",
         "format": "source",
-        "path": "./myConfig/ruleset/proxy/bing.json",
-        "url": "https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/Sing-Box/PROXY/Bing.json"
+        "path": "./myConfig/ruleset/proxy/copilot.json",
+        "url": "https://cdn.jsdelivr.net/gh/CarefreeMontage/clashrules-cm@main/Sing-Box/PROXY/Copilot.json"
       },
       {
         "tag": "openai",
