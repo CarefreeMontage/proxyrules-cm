@@ -106,7 +106,7 @@ proxy-groups:
   - { name: '🚀 代理节点'  , type: select, use: ['Node-Info', 'Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
   - { name: '🛸 Google'   , type: select, use: ['Node-US'] }
   - { name: '📺 Netflix'  , type: select, use: ['Node-SG', 'Node-HK', 'Node-JP', 'Node-US'] }
-  - { name: '💬 Copilot'     , type: select, proxies: ['🚀 代理节点', '🇨🇳 国内直连'], use: ['Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
+  - { name: '✨ Copilot'     , type: select, proxies: ['🚀 代理节点', '🇨🇳 国内直连'], use: ['Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
   - { name: '🤖 OpenAI'   , type: select, use: ['Node-SG', 'Node-US'] }
   - { name: '🇨🇳 国内直连'  , type: select, proxies: ['DIRECT'] }
   - { name: '🍎 Apple'    , type: select, proxies: ['🇨🇳 国内直连', '🚀 代理节点'], use: ['Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
@@ -185,7 +185,7 @@ rules:
   # apple
   - RULE-SET,apple,🍎 Apple
   # microsoft
-  - RULE-SET,copilot,💬 Copilot
+  - RULE-SET,copilot,✨ Copilot
   - RULE-SET,microsoft,🪟 Microsoft
   # google
   - RULE-SET,google,🛸 Google
