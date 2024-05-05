@@ -106,7 +106,7 @@ proxy-groups:
   - { name: '🚀 代理节点'  , type: select, use: ['Node-Info', 'Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
   - { name: '🛸 Google'   , type: select, use: ['Node-US'] }
   - { name: '📺 Netflix'  , type: select, use: ['Node-SG', 'Node-HK', 'Node-JP', 'Node-US'] }
-  - { name: '🔍 Bing'     , type: select, proxies: ['🚀 代理节点', '🇨🇳 国内直连'], use: ['Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
+  - { name: '🔍 Copilot'     , type: select, proxies: ['🚀 代理节点', '🇨🇳 国内直连'], use: ['Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
   - { name: '🤖 OpenAI'   , type: select, use: ['Node-SG', 'Node-US'] }
   - { name: '🇨🇳 国内直连'  , type: select, proxies: ['DIRECT'] }
   - { name: '🍎 Apple'    , type: select, proxies: ['🇨🇳 国内直连', '🚀 代理节点'], use: ['Node-HK', 'Node-JP', 'Node-SG', 'Node-US', 'Node-DE'] }
@@ -130,11 +130,11 @@ rule-providers:
       path: ./myConfig/ruleset/proxy/netflix.yaml
       interval: 86400
   
-    bing:
+    Copilot:
       type: http
       behavior: classical
-      url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/Bing.yaml"
-      path: ./myConfig/ruleset/proxy/bing.yaml
+      url: "https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Clash/PROXY/Copilot.yaml"
+      path: ./myConfig/ruleset/proxy/Copilot.yaml
       interval: 86400
 
     openai:
@@ -185,7 +185,7 @@ rules:
   # apple
   - RULE-SET,apple,🍎 Apple
   # microsoft
-  - RULE-SET,bing,🔍 Bing
+  - RULE-SET,Copilot,🔍 Copilot
   - RULE-SET,microsoft,🪟 Microsoft
   # google
   - RULE-SET,google,🛸 Google
