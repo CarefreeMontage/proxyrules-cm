@@ -15,6 +15,15 @@ HOST,services.bingapis.com,Copilot
 HOST,static.cloudflareinsights.com,Copilot
 HOST-SUFFIX,algolia.net,Copilot
 HOST-SUFFIX,api.microsoftapp.net,Copilot
+HOST-SUFFIX,bing.com,Bing
+HOST-SUFFIX,bing.com.cn,Bing
+HOST-SUFFIX,bing.net,Bing
+HOST-SUFFIX,bingads.com,Bing
+HOST-SUFFIX,bingagencyawards.com,Bing
+HOST-SUFFIX,bingapistatistics.com,Bing
+HOST-SUFFIX,bingsandbox.com,Bing
+HOST-SUFFIX,bingvisualsearch.com,Bing
+HOST-SUFFIX,bingworld.com,Bing
 HOST-SUFFIX,challenges.cloudflare.com,Copilot
 HOST-SUFFIX,client-api.arkoselabs.com,Copilot
 HOST-SUFFIX,edgeservices.bing.com,Copilot
