@@ -302,6 +302,7 @@ Apple:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/DIRE
 - **PROXY - 代理**<br />
 GFW:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/GFW.json<br />
 Google:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/Google.json<br />
+PayPal:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/PayPal.json<br />
 Netflix:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/Netflix.json<br />
 Copilot:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/Copilot.json<br />
 OpenAI:https://raw.gitmirror.com/CarefreeMontage/proxyrules-cm/main/Sing-Box/PROXY/OpenAI.json
@@ -318,6 +319,7 @@ Apple:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Sing-Box/DI
 - **PROXY - 代理**<br />
 GFW-被墙:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Sing-Box/PROXY/GFW.json<br />
 Google:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Sing-Box/PROXY/Google.json<br />
+PayPal:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Sing-Box/PROXY/PayPal.json<br />
 Netflix:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Sing-Box/PROXY/Netflix.json<br />
 Copilot:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Sing-Box/PROXY/Copilot.json<br />
 OpenAI:https://cdn.jsdelivr.net/gh/CarefreeMontage/proxyrules-cm@main/Sing-Box/PROXY/OpenAI.json
